@@ -1,16 +1,38 @@
+body{
+    font-size: 20px;
+}
+
 .box{
     position: relative;
-    height: 170px;
+    height: 100px;
     background-image: url(./img/pattern.png);
+    background-size: 45%;
+    background-position: top 10%
+    right 10%;
     background-color:#4EA0FF;
     
 }
 .logo{
     position: absolute;
-    width: 18%;
-    top: 90px;
+    width: 20%;
+    top: 45px;
 }
 
 h1{
     font-size: 3rem;
+}
+
+.sub-title{
+    font-size: 1.5rem;
+    color: grey;
+}
+
+.sub-colored{
+    color:darkcyan;
+    text-decoration: none;
+}
+
+.date{
+font-size: 0.9rem;
+color: grey;
 }
