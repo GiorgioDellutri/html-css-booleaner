@@ -4,17 +4,16 @@ body{
 
 .box{
     position: relative;
+    width: 100%;
     height: 100px;
     background-image: url(./img/pattern.png);
-    background-size: 23%;
-    background-position: top 10%
-    right 20%;
+    background-size: 390px;
     background-color:#4EA0FF;
  
 }
 .logo{
     position: absolute;
-    width: 10%;
+    width: 200px;
     top: 45px;
 }
 
@@ -61,6 +60,8 @@ td{
 table{
     table-layout: auto;
     width: 100%;
+    border-collapse: collapse;
+    border-spacing: 50px;
 }
 
 .row-colored{
