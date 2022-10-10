@@ -51,10 +51,27 @@ thead{
 
 th{
     color: white;
+    text-align: left;
+}
+
+td{
+    text-align: left;
+}
+
+table{
+    table-layout: auto;
+    width: 100%;
 }
 
 .row-colored{
     background-color: rgb(154, 222, 253);
+}
+
+.td-1{
+    width: 500px;
+}
+.td-2{
+    width: 500px;
 }
 
 .footer-first{
