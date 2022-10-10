@@ -1,0 +1,16 @@
+.box{
+    position: relative;
+    height: 170px;
+    background-image: url(./img/pattern.png);
+    background-color:#4EA0FF;
+    
+}
+.logo{
+    position: absolute;
+    width: 18%;
+    top: 90px;
+}
+
+h1{
+    font-size: 3rem;
+}
